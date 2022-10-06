@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Anvys/rsvo_tc/static/css/main.315154c1.css",
+    "main.js": "/Anvys/rsvo_tc/static/js/main.83bc6b0c.js",
+    "index.html": "/Anvys/rsvo_tc/index.html",
+    "main.315154c1.css.map": "/Anvys/rsvo_tc/static/css/main.315154c1.css.map",
+    "main.83bc6b0c.js.map": "/Anvys/rsvo_tc/static/js/main.83bc6b0c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.315154c1.css",
+    "static/js/main.83bc6b0c.js"
+  ]
+}
