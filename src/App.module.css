@@ -1,0 +1,49 @@
+.App {
+    /*text-align: center;*/
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /*justify-content: center;*/
+    /*align-content: center;*/
+}
+
+.content {
+    display: flex;
+    gap: 5px;
+}
+
+.optionDiv {
+    flex-direction: column;
+    align-content: start;
+    gap: 20px;
+    padding: 5px;
+}
+
+.imgResult {
+    width: 70%;
+    min-height: 40%;
+    border: 1px solid white;
+}
+
+.fileLoader {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.imgPrev {
+    width: 150px;
+    height: 100px;
+}
+
+.btnControl {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    width: fit-content;
+
+}
