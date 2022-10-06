@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Anvys/rsvo_tc/static/css/main.315154c1.css",
-    "main.js": "/Anvys/rsvo_tc/static/js/main.83bc6b0c.js",
+    "main.css": "/Anvys/rsvo_tc/static/css/main.dfad8275.css",
+    "main.js": "/Anvys/rsvo_tc/static/js/main.bc4884f5.js",
     "index.html": "/Anvys/rsvo_tc/index.html",
-    "main.315154c1.css.map": "/Anvys/rsvo_tc/static/css/main.315154c1.css.map",
-    "main.83bc6b0c.js.map": "/Anvys/rsvo_tc/static/js/main.83bc6b0c.js.map"
+    "main.dfad8275.css.map": "/Anvys/rsvo_tc/static/css/main.dfad8275.css.map",
+    "main.bc4884f5.js.map": "/Anvys/rsvo_tc/static/js/main.bc4884f5.js.map"
   },
   "entrypoints": [
-    "static/css/main.315154c1.css",
-    "static/js/main.83bc6b0c.js"
+    "static/css/main.dfad8275.css",
+    "static/js/main.bc4884f5.js"
   ]
 }
