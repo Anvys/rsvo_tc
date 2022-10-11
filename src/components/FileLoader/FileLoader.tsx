@@ -1,18 +1,22 @@
 import React, {useEffect, useState} from 'react'
-import s from './../App.module.css'
+import s from '../../App.module.css'
 
 type TProps = {
     onImgChange: (str: string) => void
-    getLoadedImg: (str: string | null)=>void
 }
 export const FileLoader:React.FC<TProps> = (props) => {
-    const {getLoadedImg, onImgChange} = props
+    const { onImgChange} = props
     const [img, setImg] = useState<string | null>(null)
     const reader = new FileReader();
     const handleLoadFromPC: React.ChangeEventHandler<HTMLInputElement> = e => {
         if (e.target.files !== null && e.target.files[0] !== null) {
             const im = e.target.files[0]
-            reader.addEventListener('load', () => setImg(reader.result as string));
+            console.log(`Loaded omg `, im)
+            reader.addEventListener('load', () => {
+                // console.log(`Read result`, reader.result)
+                setImg(reader.result as string)
+                onImgChange(reader.result as string)
+            });
             reader.readAsDataURL(e.target.files[0]);
         }
     }
@@ -23,7 +27,7 @@ export const FileLoader:React.FC<TProps> = (props) => {
     }
     useEffect(()=>{
         if(img!== null)onImgChange(img)
-    })
+    },[img])
     return (
         <div className={s.fileLoader}>
             {img && <img className={s.imgPrev} alt={'Loaded img prev'}src={img === null ? undefined : img}/>}
